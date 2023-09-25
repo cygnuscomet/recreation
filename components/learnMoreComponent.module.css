@@ -1,0 +1,12 @@
+.learnMore {
+    color: #9268f6;
+}
+
+.learnMore:hover {
+    color: black;
+}
+
+.learnMore:hover svg {
+    transform: translateX(5px);
+    transition: transform 0.3s ease;
+  }

@@ -1,0 +1,28 @@
+.btnPrimary {
+    color: #fff;
+    text-align: center;
+    transform-style: preserve-3d;
+    background-color: #0a2540;
+    border-radius: 14px;
+    padding: 18px 24px;
+    transition: transform 0.3s ease;
+}
+
+.btnPrimary:hover, .btnSecondary:hover {
+    background-color: #9268f6;
+    transform: translateY(-5px); 
+}
+
+.btnSecondary:hover  {
+    color: white;
+}
+
+.btnSecondary {
+    color: black;
+    text-align: center;
+    transform-style: preserve-3d;
+    background-color: white;
+    border-radius: 14px;
+    padding: 18px 24px;
+    transition: transform 0.3s ease;
+}

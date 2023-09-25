@@ -1,0 +1,18 @@
+.dropDownIcon {
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    color: rgb(15, 15, 15);
+    transition: transform 0.3s; /* Add transition for smooth animation */
+}
+
+li:hover .dropDownIcon {
+    transform: rotate(180deg);
+}
+
+.dropDownMenu {
+    
+}
+
+li:hover .dropDownMenu {
+    display: block;
+}

@@ -1,0 +1,11 @@
+.home0 {
+    background-image: url(/cover.png);
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.home1 {
+    background-image: url(/cover2.png);
+}

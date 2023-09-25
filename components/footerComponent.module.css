@@ -1,0 +1,8 @@
+.footerSocialIcon {
+    transition: transform 0.3s ease;
+}
+
+.footerSocialIcon:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
